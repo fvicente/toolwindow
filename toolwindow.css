@@ -1,0 +1,130 @@
+
+/* sample class with the initial position and size */
+
+.sampleClass {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+/* class to format the sample content */
+
+.sampleContent {
+	display: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	height: 100%;
+	background-color: #555;
+	color: white;
+}
+
+/* title stuff */
+
+.titleBarTable {
+	position: relative;
+	width: 100%;
+	height: 18px;
+	white-space: nowrap;
+	text-align: center;
+	cursor: move;
+}
+
+.titleBarContainer {
+	position: absolute;
+	width: 100%;
+	height: 18px;
+	top: 0px;
+	clear: both;
+}
+
+.titleBarLeft {
+	background: url('images/title_bar_left.png') no-repeat center center;
+	width: 10px;
+	height: 18px;
+	cursor: move;
+}
+
+.titleBar {
+	vertical-align: middle;
+	height: 18px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	background-image: url('images/title_bar.png');
+	cursor: move;
+}
+
+.titleBarRight {
+	background: url('images/title_bar_right.png') no-repeat center center;
+	width: 10px;
+	height: 18px;
+}
+
+.windowContainer {
+	position: absolute;
+	top: 18px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #2E2E2E;
+	clear: both;
+}
+
+.mainContainer {
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	right: 4px;
+	top: 4px;
+	clear: both;
+}
+
+.westContainer {
+	position: absolute;
+	float: left;
+	width: 4px;
+	height: 100%;
+	clear: both;
+}
+
+.eastContainer {
+	position: absolute;
+	float: right;
+	width: 4px;
+	height: 100%;
+	clear: both;
+	right: 0;
+	left: auto;
+}
+
+.southWestContainer {
+	position: absolute;
+	float: left;
+	width: 4px;
+	height: 4px;
+	bottom: 0px;
+	clear: both;
+}
+
+.southContainer {
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	bottom: 0px;
+	clear: both;
+}
+
+.southEastContainer {
+	position: absolute;
+	float: right;
+	width: 4px;
+	height: 4px;
+	bottom: 0px;
+	clear: both;
+	right: 0;
+	left: auto;
+}
+
